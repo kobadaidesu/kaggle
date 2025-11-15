@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(make:*)",
+      "Bash(echo $SHELL)",
+      "Bash(docker:*)",
+      "Bash(pacman:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

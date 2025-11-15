@@ -1,0 +1,1 @@
+{"columns": ["Model", "Train Score", "Test Score", "Overfit"], "data": [["RandomForest", 0.953, 0.791, 0.162], ["LogisticReg", 0.799, 0.813, -0.014], ["MLP", 0.823, 0.799, 0.025], ["CatBoost", 0.889, 0.825, 0.065], ["XGBoost", 0.934, 0.795, 0.139], ["LightGBM", 0.899, 0.802, 0.097]]}

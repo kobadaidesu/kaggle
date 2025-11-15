@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export KAGGLE_CONFIG_DIR=/c/Users/PC_User/Documents/kaggle/kaggle-template/.kaggle)",
+      "Bash(echo:*)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(kaggle competitions:*)",
+      "Bash(cmd.exe /c \"if not exist C:\\Users\\PC_User\\.kaggle mkdir C:\\Users\\PC_User\\.kaggle && copy kaggle-template\\.kaggle\\kaggle.json C:\\Users\\PC_User\\.kaggle\\kaggle.json && dir C:\\Users\\PC_User\\.kaggle\")",
+      "Bash(powershell.exe -Command \"New-Item -ItemType Directory -Force -Path C:\\Users\\PC_User\\.kaggle; Copy-Item -Path kaggle-template\\.kaggle\\kaggle.json -Destination C:\\Users\\PC_User\\.kaggle\\kaggle.json -Force; Get-ChildItem C:\\Users\\PC_User\\.kaggle\")",
+      "Bash(powershell.exe -Command:*)",
+      "Bash(python -m kaggle:*)",
+      "Bash(python:*)",
+      "Bash(kaggle --version:*)",
+      "Bash(pip show:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)",
+      "Bash(.kaggle.bat competitions list)",
+      "Bash(del /Q \"c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\input\\train\\*2023*.csv\")",
+      "Bash(del /Q \"c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\input\\test*.csv\")",
+      "Bash(del /Q \"c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\input\\sample_submission.csv\")",
+      "Bash(del /Q \"c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\output\\submission.csv\")",
+      "Bash(del /Q \"c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\output\\catboost_models_5fold_ROLEBLEND.pkl\")",
+      "Bash(cmd.exe /c \"del /Q c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\input\\train\\*2023*.csv\")",
+      "Bash(cmd.exe /c \"del /Q c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\input\\test*.csv\")",
+      "Bash(cmd.exe /c \"del /Q c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\input\\sample_submission.csv\")",
+      "Bash(cmd.exe /c \"del /Q c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\output\\submission.csv\")",
+      "Bash(cmd.exe /c \"del /Q c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\output\\*.pkl\")",
+      "Bash(findstr:*)",
+      "Bash(tree:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(cmd.exe /c \"type c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\notebook\\konstantin.ipynb | findstr /N /C:. | more\")",
+      "Bash(temp_konstantin.txt)",
+      "Bash(cat:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -Command \"(Get-Item ''c:\\Users\\PC_User\\Documents\\kaggle\\kaggle-template\\notebook\\konstantin.ipynb'').Length\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.11.11
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 6
+                - 7
+                - 8
+                - 12
+                - 35
+                - 49
+                - 53
+                - 54
+                - 55
+                - 105
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 6
+                - 7
+                - 8
+                - 12
+                - 35
+                - 49
+                - 53
+                - 54
+                - 55
+                - 105
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.11.11
+            "5": 0.19.9
+            "8":
+                - 1
+                - 2
+                - 5
+                - 12
+            "10":
+                - 20
+            "12": 0.19.9
+            "13": linux-x86_64
+features:
+    value: []
+models:
+    value:
+        - CNN
+        - RandomForest
+        - CatBoost
+        - XGBoost
+        - LightGBM
+n_folds:
+    value: 5
+n_trials:
+    value: 100
+random_state:
+    value: 42
